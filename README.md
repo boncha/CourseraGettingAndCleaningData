@@ -53,16 +53,16 @@ b) merging the data frame from task 2.a with the data frame from task 3.a, using
 4. Appropriately labels the data set with descriptive variable names.
 This is achieved by:
 a) substituting the abbreviated terms for descriptive terms using the gsub function. 
- where it reads:	it will read:
-prefix "t" 		Time
- prefix "f"  		Frequency
- Acc 			Acceleration
-Gyro 		Gyroscopic
--X 			-Xaxis
--Y 			-Yaxis
--Z 			-Zaxis
- Mag 			Magnitude
-std 			StandardDeviation
+ where it reads ->it will read:
+prefix "t" ->		Time
+ prefix "f" -> 		Frequency
+ Acc ->	Acceleration
+Gyro -> Gyroscopic
+-X 	-> -Xaxis
+-Y 	->		-Yaxis
+-Z 	->		-Zaxis
+ Mag ->			Magnitude
+std 	->		StandardDeviation
 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 This is achieved by:
